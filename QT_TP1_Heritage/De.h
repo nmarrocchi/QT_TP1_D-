@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
-#include "ui_HUD.h"
+#include "ui_IHM.h"
 #include <qmessagebox.h>
 
 class De
@@ -17,6 +17,6 @@ public slots:
 
 private:
 	int ddc; // score du dé
-	Ui::QT_TP1Class ui;
+	Ui::Form ui;
 
 };

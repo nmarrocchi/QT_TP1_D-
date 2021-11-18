@@ -53,7 +53,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="D:\C++\QT_TP1\QT_TP1\HUD.ui">
+    <QtUic Include="IHM.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

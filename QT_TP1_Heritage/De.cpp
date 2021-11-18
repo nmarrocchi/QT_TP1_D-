@@ -15,6 +15,7 @@ De::De(QWidget *parent)
 // - Lancement du dé
 void De::dd()
 {
+
 	int i;
 
 	i = rand() % 6 + 1;

@@ -1,8 +1,11 @@
 #pragma once
 
 #include <QtWidgets/QMainWindow>
-#include "ui_HUD.h"
+#include "ui_IHM.h"
 #include <qmessagebox.h>
+
+#include "De.h"
+#include "Dehisto.h"
 
 class HUD : public QMainWindow
 {
@@ -15,7 +18,12 @@ public slots:
 	void setDehistoHUD();
 	void setDeHUD();
 
+	void dd();
+
 private:
-	Ui::QT_TP1Class ui; // - Widget
+	Ui::Form ui; // - Widget
+	De De_C; // class De
+	Dehisto Dehisto_C; // class Dehisto
+
 	//HUD operator++(int v); // - T T::operator++(int)
 };
